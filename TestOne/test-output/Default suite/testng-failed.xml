@@ -5,8 +5,7 @@
     <classes>
       <class name="Selenium.TestOne.PracticeOne">
         <methods>
-          <include name="inwardCheckAfterCreatingTheInvoice"/>
-          <include name="CancelInvoiceVisible"/>
+          <include name="ActionsInSellProducts"/>
         </methods>
       </class> <!-- Selenium.TestOne.PracticeOne -->
     </classes>

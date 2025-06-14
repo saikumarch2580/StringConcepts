@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+  <test thread-count="3" name="Test" parallel="methods">
+    <classes>
+      <class name="Selenium.TestOne.PracticeOne">
+      <methods>
+      <include name="login"></include>
+      <include name="EnterPartsInTheInward"></include>
+      <include name="ActionsInSellProducts"></include>
+      <include name="CancelInvoiceVisible"></include>
+      <include name="inwardCheckAfterCreatingTheInvoice"></include>
+      <include name="IssueTheCreditNote"></include>
+      </methods>
+      </class>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
