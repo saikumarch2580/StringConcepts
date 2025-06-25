@@ -1,6 +1,6 @@
 package com.AbstractAndInterFaces;
 
-public interface Animal {
+public interface Animal extends Robot{
 	
 	public void Sound();
 	public void AnimalColour();

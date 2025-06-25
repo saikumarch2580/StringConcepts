@@ -20,6 +20,24 @@ public class Cat implements Animal {
 		
 	}
 
+	@Override
+	public void RobotCanWalk() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void RobotCanSwim() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void RobotDance() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 
 }
